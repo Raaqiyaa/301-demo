@@ -1,8 +1,8 @@
 import React from "react";
-import "./Main.css";
+import "./main.css";
 
-import HornedBeast from "../HornedBeast/HornedBeast";
-import data from "../../data.json";
+import HornedBeast from "./HornedBeast";
+import data from "../data.json";
 
 export default function Main() {
     return (

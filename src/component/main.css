@@ -3,9 +3,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(20, 1fr);
     gap: 1rem;
-    /* display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; */
+    
     }
     
     @media (min-width: 600px) {
