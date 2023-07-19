@@ -1,0 +1,30 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(20, 1fr);
+    gap: 1rem;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    }
+    
+    @media (min-width: 600px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+    }
+    
+    @media (min-width: 900px) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    }
+    
+    @media (min-width: 1200px) {
+    main {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    }
